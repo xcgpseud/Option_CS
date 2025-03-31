@@ -1,8 +1,6 @@
-﻿using Option.Interfaces;
+﻿namespace Option;
 
-namespace Option;
-
-public class None<T> : Option<T>, INone<T>
+public class None<T> : Option<T>
 {
     
 }
